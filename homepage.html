@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+    <title>个人网站</title>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <a href="homepage.html" class="navbar-brand">Mywebpage</a>
+                <button class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar-collapse">
+                <form class="navbar-form navbar-right hidden-xs hidden-sm hidden-md" role="search" method="get">
+                    <div class="form-group">
+                        <input id="searchbox" type="text" class="form-control" placeholder="search...">
+                    </div>
+                    <button id="searchbtn" class="glyphicon glyphicon-search btn" type="submit">
+                    </button>
+                </form>
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="active"><a href="homepage.html"><span class="glyphicon glyphicon-home"></span> Homepage</a></li>
+                    <li><a href="article1.html"><span class="glyphicon glyphicon-list"></span>	Articles</a></li>
+                    <li><a href="#"><span class="glyphicon glyphicon-list"></span> Living</a></li>
+                    <li><a href="#"><span class="glyphicon glyphicon-music"></span> Gaming</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- 导航条 -->
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+            <li data-target="#myCarousel" data-slide-to="3"></li>
+            <li data-target="#myCarousel" data-slide-to="4"></li>
+        </ol>
+        <!-- 轮播指标 -->
+        <div class="carousel-inner">
+            <div class="item active">
+                <img src="img/YANGZHOU.jpg" alt="1">
+                <div class="carousel-caption">
+                    <span class="num">
+					<i>1</i>/<em>5</em>
+				</span>
+                    <div class="text">
+                        <p>夏日瘦西湖美丽风光</p>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <img src="img/BROOKLYN.jpg" alt="2">
+                <div class="carousel-caption">
+                    <span class="num">
+					<i>2</i>/<em>5</em>
+				</span>
+                    <div class="text">
+                        <p>落日与布鲁克林大桥</p>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <img src="img/FUCHUNJIANG.jpg" alt="3">
+                <div class="carousel-caption">
+                    <span class="num">
+					<i>3</i>/<em>5</em>
+				</span>
+                    <div class="text">
+                        <p>富春江夜景</p>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <img src="img/NEWYORK.jpg" alt="4">
+                <div class="carousel-caption">
+                    <span class="num">
+					<i>4</i>/<em>5</em>
+				</span>
+                    <div class="text">
+                        <p>纽约天际线</p>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <a href="oaxaca.html">
+                    <img src="img/OAXACA.jpg" alt="5">
+                    <div class="carousel-caption">
+                        <span class="num">
+						<i>5</i>/<em>5</em>
+					</span>
+                        <div class="text">
+                            <p>神秘墨西哥风光——瓦哈卡</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <!-- 轮播项目 -->
+        <a href="#myCarousel" class="carousel-control left" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
+        <a href="#myCarousel" class="carousel-control right" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
+    </div>
+    <div class="tab2">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-sm-6 auto tab-img">
+                    <img src="img/tab2pic.jpeg" alt="" class="img-responsive center-block">
+                </div>
+                <div class="subtext col-md-6 col-sm-6 tab-text">
+                    <h3>Find you passion</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="tab3">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-sm-6 auto">
+                    <img src="img/tab3pic.jpeg" alt="" class="img-responsive center-block">
+                </div>
+                <div class="subtext col-md-6 col-sm-6">
+                    <h3>Find your desire</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer id="footer">
+        <div class="container">
+            <p>2017 Copyright All Rights Reserved raamenn</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit</p>
+        </div>
+    </footer>
+    <script src='js/jquery.min.js'></script>
+    <script src='js/bootstrap.min.js'></script>
+    <script src='js/已封装的函数/完美运动框架.js'></script>
+    <script>
+    $(window).load(function() {
+
+        var changeHeight = ($('.auto').eq(0).height() - $('.subtext').eq(0).height()) / 2;
+        $('.subtext').eq(0).css('margin-top', changeHeight + 'px');
+        $('.subtext').eq(1).css('margin-top', changeHeight + 'px'); /* Act on the event */
+    });
+    $(window).resize(function(event) {
+        $('.subtext').eq(0).css('margin-top', changeHeight + 'px'); /* Act on the event */
+    });
+
+    $(window).resize(function(event) {
+        $('.subtext').eq(1).css('margin-top', changeHeight + 'px'); /* Act on the event */
+    });
+    window.onload = function() {
+        var oBtn = document.getElementById('searchbtn');
+        var oBox = document.getElementById('searchbox');
+
+        oBtn.onmouseover = function() {
+            startMove(oBox, {
+                opacity: 100
+            });
+        }
+    };
+    </script>
+</body>
+
+</html>
